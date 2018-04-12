@@ -3,7 +3,7 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "jonashackt/dcos-bootcamp-cd:latest",
+      "image": "ocabrisses/dcos-bootcamp-cd:latest",
       "network": "BRIDGE",
       "portMappings": [
         {
@@ -18,7 +18,7 @@
     "slave_public"
   ],
   "labels": {
-    "lastChangedBy": "sunil@mesosphere.io"
+    "lastChangedBy": "ocabrisses@cabrisses.net"
   },
   "instances": 1,
   "cpus": 0.1,
