@@ -1,2 +1,2 @@
-FROM jekyll/jekyll
+FROM ocabrisses/jekyll
 ADD site /srv/jekyll
